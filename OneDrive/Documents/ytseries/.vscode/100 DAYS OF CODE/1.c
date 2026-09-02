@@ -22,11 +22,3 @@ start:
                 score = 0;
         }
     }
-
-    attempts++;
-    goto start;
-
-end:
-    printf("Final Score: %d\n", score);
-    return 0;
-}
